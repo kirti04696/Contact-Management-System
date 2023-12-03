@@ -13,7 +13,7 @@ class ContactDetail{
 		try{  
 			Class.forName("com.mysql.cj.jdbc.Driver");  
 			con=DriverManager.getConnection(  
-			"jdbc:mysql://localhost:3306/contact","root","Gniot@2023");  
+			"jdbc:mysql://localhost:3306/<DATABASE NAME>","<DB USERNAME>","<DB PASSWORD>");  
 			//here sonoo is database name, root is username and password  
 			// Statement stmt=con.createStatement();  
 			// ResultSet rs=stmt.executeQuery("select * from contact_detail");  
