@@ -14,12 +14,7 @@ class ContactDetail{
 			Class.forName("com.mysql.cj.jdbc.Driver");  
 			con=DriverManager.getConnection(  
 			"jdbc:mysql://localhost:3306/<DATABASE NAME>","<DB USERNAME>","<DB PASSWORD>");  
-			//here sonoo is database name, root is username and password  
-			// Statement stmt=con.createStatement();  
-			// ResultSet rs=stmt.executeQuery("select * from contact_detail");  
-			// while(rs.next())  
-			// System.out.println(rs.getString(1)+"  "+rs.getString(2));  
-			// con.close();  
+			 
 			}catch(Exception e){ System.out.println(e);}  
 
 
